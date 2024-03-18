@@ -7,3 +7,8 @@
 position = Vector2(79, 129)
 texture = ExtResource("1_4ddke")
 script = ExtResource("2_vqi1i")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
