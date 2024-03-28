@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c7ns0qmu8ygfd"]
 
-[ext_resource type="Texture2D" uid="uid://bniyrxn3r2v8h" path="res://assets/ship.png" id="1_4ddke"]
-[ext_resource type="Script" path="res://ship.gd" id="2_vqi1i"]
+[ext_resource type="Texture2D" uid="uid://bniyrxn3r2v8h" path="res://assets/ship/ship.png" id="1_4ddke"]
+[ext_resource type="Script" path="res://Lessons/ship.gd" id="2_vqi1i"]
 
 [node name="Sprite2D" type="Sprite2D"]
 position = Vector2(79, 129)
