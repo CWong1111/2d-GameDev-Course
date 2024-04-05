@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://b5bs16rcjooe4"]
 
-[ext_resource type="Script" path="res://lessons/health_park.gd" id="1_lxclu"]
+[ext_resource type="Script" path="res://lessons/item.gd" id="1_oktyv"]
 [ext_resource type="Texture2D" uid="uid://dknpi2mq4dhpa" path="res://assets/health_icon.svg" id="1_sh6ll"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_q1gfo"]
 radius = 27.66
 
-[node name="HealthPark" type="Area2D"]
-script = ExtResource("1_lxclu")
+[node name="HealthPark" type="Area2D" groups=["healing_item"]]
+script = ExtResource("1_oktyv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 1)
