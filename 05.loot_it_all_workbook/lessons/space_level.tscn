@@ -9,26 +9,15 @@
 [node name="Level" type="Node2D"]
 
 [node name="Ship" parent="." instance=ExtResource("2_2j1u5")]
-position = Vector2(2, -6)
+position = Vector2(670, 476)
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
-[node name="HealthPark" parent="." instance=ExtResource("3_nwo4x")]
-position = Vector2(-451, 207)
-
-[node name="HealthPark2" parent="." instance=ExtResource("3_nwo4x")]
-position = Vector2(0, -354)
-
-[node name="HealthPark3" parent="." instance=ExtResource("3_nwo4x")]
-position = Vector2(507, 59)
+[node name="RandomItemPlacer" parent="." instance=ExtResource("5_n74an")]
+position = Vector2(946, 539)
 
 [node name="Gem" parent="." instance=ExtResource("4_01fa8")]
-position = Vector2(-507, -314)
+position = Vector2(443, 443)
 
-[node name="Gem2" parent="." instance=ExtResource("4_01fa8")]
-position = Vector2(473, -301)
-
-[node name="Gem3" parent="." instance=ExtResource("4_01fa8")]
-position = Vector2(174, 324)
-
-[node name="RandomItemPlacer" parent="." instance=ExtResource("5_n74an")]
+[node name="HealthPark" parent="." instance=ExtResource("3_nwo4x")]
+position = Vector2(445, 487)
