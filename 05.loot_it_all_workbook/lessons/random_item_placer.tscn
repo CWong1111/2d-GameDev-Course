@@ -6,7 +6,5 @@
 script = ExtResource("1_fg5o0")
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
 autostart = true
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(14, 0)
