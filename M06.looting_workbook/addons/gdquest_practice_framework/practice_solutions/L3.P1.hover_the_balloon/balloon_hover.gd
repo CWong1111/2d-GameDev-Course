@@ -16,8 +16,7 @@ func set_outline_thickness(new_thickness: float) -> void:
 
 
 func _on_mouse_entered() -> void:
-	set_outline_thickness(10.0)  # pass
-
+	set_outline_thickness(10.0)
 
 func _on_mouse_exited() -> void:
-	set_outline_thickness(5.0)  # pass
+	set_outline_thickness(5.0)
