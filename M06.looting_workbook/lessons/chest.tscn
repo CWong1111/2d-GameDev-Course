@@ -56,7 +56,6 @@ _data = {
 script = ExtResource("1_iqs35")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(-4, -20)
 shape = SubResource("RectangleShape2D_i6qmb")
 
