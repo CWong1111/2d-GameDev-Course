@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmhvxht4fgrdx"]
+
+[ext_resource type="Script" path="res://bird_completed.gd" id="1_dn7pr"]
+[ext_resource type="Texture2D" uid="uid://bwhshkk62k3bh" path="res://assets/bird/sparrow.png" id="2_ennja"]
+[ext_resource type="PackedScene" uid="uid://dnetm54guji21" path="res://assets/bird/shadow.tscn" id="3_3vw5q"]
+
+[node name="Bird" type="Node2D"]
+script = ExtResource("1_dn7pr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ennja")
+
+[node name="Shadow" parent="." instance=ExtResource("3_3vw5q")]
+position = Vector2(-1, 29.1875)
+scale = Vector2(2.625, 1.17578)
+
+[node name="WaitTimer" type="Timer" parent="."]
