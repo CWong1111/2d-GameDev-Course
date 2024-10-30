@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://ma5a7p2g1jeg"]
+
+[ext_resource type="Texture2D" path="res://assets/test.svg" id="1_baky3"]
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1916.0
+offset_bottom = 1081.0
+texture = ExtResource("1_baky3")
+expand_mode = 1
